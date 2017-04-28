@@ -8,7 +8,7 @@ This is a fork from [gilesp's react_native](https://github.com/gilesp/docker/tre
 
 Usual clone and image install:
 ```
-> git clone https://github.com/MaximeD/docker-react-native
+> https://github.com/sionglenggowild/docker-react-native.git
 > cd docker-react-native
 
 > docker build -t react-native .

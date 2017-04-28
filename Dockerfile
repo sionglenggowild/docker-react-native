@@ -79,6 +79,7 @@ USER $USERNAME
 
 # Set workdir
 # You'll need to run this image with a volume mapped to /home/dev (i.e. -v $(pwd):/home/dev) or override this value
+RUN mkdir -p /home/$USERNAME/app
 WORKDIR /home/$USERNAME/app
 
 # Tell gradle to store dependencies in a sub directory of the android project
